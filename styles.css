@@ -26,6 +26,14 @@ body
     background-color: var(--black);
 
 }
+.backr
+{
+    background-color: var(--red);
+}
+.backw
+{
+    background-color: var(--white);
+}
 .cw 
 {
     color: var(--white);
@@ -37,6 +45,10 @@ body
 .cg 
 {
     color:#757575;
+}
+.cblack
+{
+    color: #000000;
 }
 /* text */
 
@@ -78,6 +90,7 @@ body
     text-align: left;
 }
 
+
 /* border */
 
 .bb
@@ -109,6 +122,15 @@ body
 .mw
 {
     max-width: 100%;
+}
+
+.w100
+{
+    width: 100%;
+}
+.h100
+{
+    height: 100%;
 }
 
 /* flexbox */
@@ -149,6 +171,30 @@ body
     flex-basis: 0;
 }
 
+.wvw
+{
+    width: 100vw;
+}
+
+.hvh 
+{
+    height: 100vh;
+}
+
+.wauto
+{
+    width:auto;
+}
+
+.mauto
+{
+    margin: auto;
+}
+
+.bnone
+{
+    border:none;
+}
 
 .simg
 {
@@ -180,14 +226,14 @@ body
 .downloadimg1
 {
   
-    width: auto;
+    
     height: 6rem;
     padding: 7px 15px;
 }
 .downloadimg2
 {
   
-    width: auto;
+    
     height: 4rem;
     padding: 7px 15px;
 }
@@ -206,16 +252,29 @@ body
 {
     position: absolute;
 }
+.t0
+{
+    top:0;
+}
+.l0
+{
+    left:0;
+}
+.r0
+{
+    right:0;
+}
+.b0
+{
+    bottom: 0;
+}
 
 .z1
 {
     z-index: 1;
 }
 
-.z0
-{
-    z-index: 0;
-}
+
 
 li
 {
@@ -235,21 +294,7 @@ ul
 {
     margin-bottom: 24px;
 }
-/* 
-:before
-{
-    color: #999;
-    font-family: nf-icon;
-    content: '\e896';
-    font-size: 16px;
-}
-::after
-{
-    color: #999;
-    font-family: nf-icon;
-    content: '\e896';
-    font-size: 16px;
-} */
+
 select
 {
 
@@ -262,18 +307,15 @@ select
 .htext
 {
     width: 50%;
-    margin:auto;
     padding: 10px;
 
 }
 .signin
 {
-    background-color: var(--red);
-    color: var(--white);
+    
     height: 2.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    border:none;
     border-radius: 4px;
     
 }
@@ -292,32 +334,13 @@ nav
 
     margin-right: 10px;
 }
-.himgd
-{
-    top:0;
-    left:0;
-    right: 0;
-    bottom: 0;
-}
-.hnav
-{
-    top:0;
-    left:0;
-    right: 0;
 
-}
 
 .himg
 {
-    height: 100%;
-    width: 100%;
     filter: brightness(35%);
 }
-header
-{
-    width: 100vw;
-    height: 100vh;
-}
+
 
 .ht3
 {
@@ -330,23 +353,17 @@ header
 }
 .email
 {
-  background-color: var(--white);
-  color: #000000;
   width: 65%;
-  border:none;
+ 
 }
 .submit
 {
-  background-color: red;
-  color: var(--white);
   width: 35%;
-  border:none;
 }
 
 .faq
 {
     width: 70%;
-    margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -423,7 +440,3 @@ header
     }
 }
 
-.tb
-{
-    border: 1px solid white;
-}
